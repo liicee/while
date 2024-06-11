@@ -2,7 +2,6 @@ n= 0
 soma= 0
 while n <= 10:
     b = int(input("Digite um numero:  "))
-    soma = soma + b
-    n= n+1
+    n= b+soma
     print (n)
         
