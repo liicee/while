@@ -1,7 +1,10 @@
-n= 0
-soma= 0
-while n <= 10:
+n = 0
+soma = 0
+
+while n < 10:
     b = int(input("Digite um numero:  "))
-    n= b+b
-    print (n)
+    n = n + 1
+    soma = b + soma
+    print ("A soma é: ", soma)
+
         
